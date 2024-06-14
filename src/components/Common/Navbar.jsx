@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Common.css';
-
+import Listings from '../Listings/Listings.jsx';
 const Navbar = () => {
   return (
     <header>

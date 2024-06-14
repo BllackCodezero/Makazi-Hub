@@ -1,5 +1,7 @@
 import React from 'react';
 import Navbar from '../Common/Navbar';
+import Footer from '../Common/Footer';
+import SearchBar from '../Common/SearchBar';
 import './Home.css';
 
 const Home = () => {
@@ -10,14 +12,8 @@ const Home = () => {
         <div className="hero">
           <h1>Find the perfect place to Live with your family</h1>
           <p>Let's find a home that's perfect for you</p>
-          <div className="search-bar">
-            <button>Buy</button>
-            <button>Rent</button>
-            <button>Sold</button>
-            <input type="text" placeholder="Enter an address, neighborhood, city, or ZIP code" />
-            <button className="advanced">Advanced</button>
-            <button className="search">Search</button>
-          </div>
+          <SearchBar />
+
           <div className="categories">
             <button><i className="fas fa-house"></i> Houses</button>
             <button><i className="fas fa-building"></i> Apartments</button>
@@ -55,8 +51,8 @@ const Home = () => {
 
         {/* Value Proposition */}
         <section className="value-proposition">
-          <h2>Why Choose LuxeSeekers?</h2>
-          <p>LuxeSeekers is your ultimate solution for finding and booking accommodations. We offer:</p>
+          <h2>Why Choose MakaziHub?</h2>
+          <p>MakaziHub is your ultimate solution for finding and booking accommodations. We offer:</p>
           <ul>
             <li>Detailed listings of available hostels and accommodations</li>
             <li>Advanced search and filter options</li>
@@ -69,7 +65,7 @@ const Home = () => {
         <section className="testimonials">
           <h2>What Our Customers Say</h2>
           <div className="testimonial">
-            <p>"LuxeSeekers helped me find the perfect apartment in a great neighborhood. Highly recommended!"</p>
+            <p>"MakaziHub helped me find the perfect apartment in a great neighborhood. Highly recommended!"</p>
             <p>- John Doe</p>
           </div>
           <div className="testimonial">
@@ -78,6 +74,7 @@ const Home = () => {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 };
