@@ -1,0 +1,131 @@
+/* Blog featured styles */
+.featured-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow:hidden;
+  }
+  
+  .featured-blog-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    width:100%;
+  }
+  
+  .featured-image {
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    position:relative;
+  }
+  
+  .featured-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .featured-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    color: #fff;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+  }  
+  
+  .featured-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    color: #fff;
+    text-align: start;
+    display:flex;
+    flex-direction:column
+  }
+  
+  .featured-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .featured-content p {
+    font-size: 1.2rem;
+  }
+  
+  .read-more-arrow {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .read-more-arrow svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Blog list styles */
+  .recent-blog-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  /* Blog card styles */
+  .blog-card {
+    background-color: #f5f5f5;
+    color:#15137c;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .blog-card-content {
+    padding: 1rem;
+  }
+  
+  .blog-card-content h3 {
+    margin-top: 0;
+  }
+  
+  .blog-card-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: #888;
+    font-size: 0.8rem;
+  }
+  
+  .load-more-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
