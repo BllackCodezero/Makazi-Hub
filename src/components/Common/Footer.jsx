@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Info</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            tincidunt arcu vel arcu fermentum, eget accumsan dolor dignissim.
+          Makazi Hub offers a wide range of accommodations, and detailed property listings.
+          We provide secure booking options and up-to-date property information to help you find your ideal home easily.
           </p>
           <div className="social-icons">
             <a href="#"><i className="fab fa-facebook-f"></i></a>
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
       </div>
     </footer>
   );

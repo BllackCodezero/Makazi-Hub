@@ -66,11 +66,11 @@ const Home = () => {
           <h2>What Our Customers Say</h2>
           <div className="testimonial">
             <p>"MakaziHub helped me find the perfect apartment in a great neighborhood. Highly recommended!"</p>
-            <p>- John Doe</p>
+            <p>- John Maina</p>
           </div>
           <div className="testimonial">
-            <p>"The search features on LuxeSeekers are so easy to use. I found my dream home in just a few clicks!"</p>
-            <p>- Jane Smith</p>
+            <p>"The search features on MakaziHub are so easy to use. I found my dream home in just a few clicks!"</p>
+            <p>- Larry Nasiali</p>
           </div>
         </section>
       </main>

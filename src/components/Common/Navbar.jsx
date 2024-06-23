@@ -23,8 +23,7 @@ const Navbar = () => {
         <div className="nav-buttons">
         <nav className="header-nav">
         </nav>
-          <button><Link to="/login" className="nav-link">Login</Link></button>
-          <button><Link to="/signup" className="nav-link">Sign Up</Link></button>
+        <button><Link to="/login" className="nav-link">Sign in / Sign Up</Link></button>
         </div>
       </nav>
     </header>
