@@ -1,0 +1,23 @@
+.trust-and-safety {
+    padding: 50px;
+    background-color: #e9ecef;
+    text-align: center;
+  }
+  
+  .trust-and-safety h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .trust-and-safety p {
+    margin-bottom: 30px;
+  }
+  
+  .trust-and-safety button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }

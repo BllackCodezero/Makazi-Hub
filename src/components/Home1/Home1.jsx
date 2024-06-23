@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../Common/Navbar';
 import Footer from '../Common/Footer';
 import SearchBar from '../Common/SearchBar';
-import './Home.css';
+import './Home1.css';
 
 const Home = () => {
   return (

@@ -1,0 +1,15 @@
+.homme {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  

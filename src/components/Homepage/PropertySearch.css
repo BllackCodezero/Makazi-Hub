@@ -1,0 +1,41 @@
+.property-search {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .property-types {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .property-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

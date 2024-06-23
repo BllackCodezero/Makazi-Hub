@@ -1,0 +1,24 @@
+.list-your-property {
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .list-your-property h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color:black;
+  }
+  
+  .list-your-property p {
+    margin-bottom: 30px;
+  }
+  
+  .list-your-property button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
