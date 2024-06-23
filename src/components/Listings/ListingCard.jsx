@@ -5,7 +5,7 @@ import './Listings.css';
 const ListingCard = ({ listing }) => {
   return (
     <div className="listing-card">
-      <img src={listing.imageUrl} alt={listing.title} />
+      <img src={'src/assets/27 Studio Apartment Ideas That Will Draw Your Attention And Capture Your Heart.jpeg'} alt={listing.title} />
       <div className="listing-details">
         <h3>{listing.title}</h3>
         <p>{listing.description}</p>

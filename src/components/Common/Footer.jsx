@@ -31,8 +31,8 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Contact</h3>
           <ul>
-            <li><i className="fas fa-map-marker-alt"></i> 123 Street, City</li>
-            <li><i className="fas fa-phone"></i> +1 (123) 456-7890</li>
+            <li><i className="fas fa-map-marker-alt"></i> 43 Ronald Ngala Street, Nairobi, Kenya</li>
+            <li><i className="fas fa-phone"></i> +254 722 333 000</li>
             <li><i className="fas fa-envelope"></i> info@example.com</li>
           </ul>
         </div>

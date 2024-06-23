@@ -38,7 +38,7 @@ const ListingDetails = ({ id }) => {
               <div className="main-image" style={{backgroundImage: `url(${listing.images[0]})`}}></div>
               <div className="thumbnail-images">
                 {listing.images.slice(1).map((img, index) => (
-                  <div key={index} className="thumbnail" style={{backgroundImage: `url(${img})`}}></div>
+                  <div key={index} className="thumbnail" style={{backgroundImage: `url(${'src/assets/27 Studio Apartment Ideas That Will Draw Your Attention And Capture Your Heart.jpeg'})`}}></div>
                 ))}
               </div>
             </div>

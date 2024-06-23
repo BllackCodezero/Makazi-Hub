@@ -10,7 +10,7 @@ const PropertySearch = () => {
         <button>Search</button>
       </div>
       <div className="property-types">
-        {['Apartment', 'House', 'Villa', 'Office', 'Land'].map((type, index) => (
+        {['Apartment', 'House', 'Hostel', 'Home', 'Studio'].map((type, index) => (
           <div key={index} className="property-type">
             <img src={`https://via.placeholder.com/50`} alt={type} />
             <span>{type}</span>

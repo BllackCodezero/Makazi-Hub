@@ -12,16 +12,16 @@ const Listings = () => {
   const listings = [
     {
       id: 1,
-      title: 'Cozy Apartment',
-      description: 'A nice place to stay',
-      price: '$500',
-      imageUrl: 'https://example.com/apartment.jpg',
+      title: 'Ram Ham House',
+      description: 'Studio: A nice place to stay',
+      price: 'Ksh.23k',
+      imageUrl: 'src/assets/27 Studio Apartment Ideas That Will Draw Your Attention And Capture Your Heart.jpeg',
     },
     {
       id: 2,
-      title: 'Modern Studio',
+      title: 'Deluxe Studio',
       description: 'Stylish and convenient',
-      price: '$700',
+      price: 'Ksh.36K',
       imageUrl: 'https://example.com/studio.jpg',
     },
     // More listings...

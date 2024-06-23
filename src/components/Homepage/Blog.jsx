@@ -14,7 +14,7 @@ const Blog = () => {
       <div className="blog-grid">
         {blogPosts.map((post, index) => (
           <div key={index} className="blog-card">
-            <img src={`https://via.placeholder.com/300x200?text=Blog+${index+1}`} alt={post.title} />
+            <img src={`src/assets/5 Ways to Start a Lucrative Real Estate Side Hustle _ Entrepreneur.jpeg`} alt={post.title} />
             <h3>{post.title}</h3>
             <p>{post.excerpt}</p>
             <a href="#" className="read-more">Read More</a>
